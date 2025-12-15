@@ -1,0 +1,11 @@
+dbt_databricks_sales_data:
+  outputs:
+    dev:
+      catalog: dbt_project_dev
+      host: dbc-29643830-dbfb.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/d7dcd118a9f5c201
+      schema: default
+      threads: 1
+      token: dapia396142162b117b04b257c1296c80f99
+      type: databricks
+  target: dev
