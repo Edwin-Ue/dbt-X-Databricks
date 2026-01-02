@@ -13,10 +13,10 @@ The goal of this project is to transform raw data into a modular, well-tested, a
 - CI/CD: Automated deployment workflows using GitHub Actions.
 
 📂 Project Structure
-├── models/           # Transformation logic (Staging, Intermediate, Marts)
-├── seeds/            # Static data files (CSVs)
-├── snapshots/        # SCD Type 2 logic
-├── macros/           # Reusable Jinja functions
-├── tests/            # Custom data quality tests
-├── dbt_project.yml   # Project configuration
-└── profiles.yml      # Connection settings (Ignored by Git for security)
+- models/           # Transformation logic (Staging, Intermediate, Marts)
+- seeds/            # Static data files (CSVs)
+- snapshots/        # SCD Type 2 logic
+- macros/           # Reusable Jinja functions
+- tests/            # Custom data quality tests
+- dbt_project.yml   # Project configuration
+- profiles.yml      # Connection settings (Ignored by Git for security)
