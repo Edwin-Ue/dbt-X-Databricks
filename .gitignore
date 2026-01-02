@@ -7,6 +7,8 @@ wheels/
 *.egg-info
 main.py
 
+# Check the readme file in dbt_databricks_sales_data for more information
+README.md
 
 # Virtual environments
 .venv
