@@ -1,4 +1,4 @@
-📌 Project Overview
+📌 Project Overview  
 The goal of this project is to transform raw data into a modular, well-tested, and documented data warehouse using dbt Core. While the tutorial uses Databricks, the logic and project structure are designed to be adapter-agnostic (Snowflake, BigQuery, etc.).
 
 🛠 Features & Concepts Covered
